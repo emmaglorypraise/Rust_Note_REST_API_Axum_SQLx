@@ -2,6 +2,15 @@
 
 A simple REST API built with Rust, Axum, and SQLx for managing notes with MySQL database. This service provides comprehensive CRUD (Create, Read, Update, Delete) operations for managing notes, along with paginated listing capabilities.
 
+## 🛠️ Technology Stack
+- Framework: Axum
+
+- Database: MySQL with SQLx
+
+- Environment: Dotenvy
+
+- Async Runtime: Tokio
+
 ## 🚀 Quick Start
 
 ### Prerequisites
@@ -106,13 +115,4 @@ curl -X POST http://localhost:8080/api/v1/notes \
   -H "Content-Type: application/json" \
   -d '{"title":"Test","content":"Test content","category":"test"}'
 ```
-
-## 🛠️ Technology Stack
-- Framework: Axum
-
-- Database: MySQL with SQLx
-
-- Environment: Dotenvy
-
-- Async Runtime: Tokio
 
