@@ -14,7 +14,6 @@ A simple REST API built with Rust, Axum, and SQLx for managing notes with MySQL 
 1. **Clone the repository**
 ```bash
 git clone https://github.com/emmaglorypraise/Rust_Note_REST_API_Axum_SQLx.git
-cd rust_note_rest
 ```
 
 2. Set up environment variables
